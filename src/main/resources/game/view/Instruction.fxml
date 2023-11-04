@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.view.InstructionController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0">
+         <!-- Set the background image -->
+         <ImageView fitHeight="800.0" fitWidth="1200.0">
+            <Image url="/MenuBackground.jpg" />
+         </ImageView>
+         <Text fill="WHITE" layoutX="403.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How To Play">
+            <font>
+               <Font size="72.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="120" fitWidth="150" layoutX="100" layoutY="150">
+            <image>
+               <Image url="/WASD.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="100" fitWidth="120" layoutX="300" layoutY="150">
+            <image>
+               <Image url="/Arrow.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="150" fitWidth="150" layoutX="525" layoutY="150">
+            <image>
+               <Image url="/AmongUsRed.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="100" fitWidth="150" layoutX="800" layoutY="120" rotate="-20">
+            <image>
+               <Image url="/Arrow.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="200" fitWidth="200" layoutX="950" layoutY="30">
+            <image>
+               <Image url="/Light.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="100" fitWidth="150" layoutX="800" layoutY="220" rotate="20">
+            <image>
+               <Image url="/Arrow.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="100" fitWidth="100" layoutX="1000" layoutY="275">
+            <image>
+               <Image url="/Health.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="150" fitWidth="150" layoutX="100" layoutY="500">
+            <image>
+               <Image url="/Meteorite.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="150" fitWidth="150" layoutX="578.0" layoutY="500.0">
+            <image>
+               <Image url="/Boss.png" />
+            </image>
+         </ImageView>
+         <Button layoutX="491.0" layoutY="700.0" mnemonicParsing="false" onAction="#handleMainMenu" text="Back to Main" />
+         <Text fill="WHITE" layoutX="67.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W - UP">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="WHITE" layoutX="173.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S - DOWN">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="WHITE" layoutX="62.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A - LEFT">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="WHITE" layoutX="174.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D - RIGHT">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="WHITE" layoutX="531.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Initial Level - 1">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="#f5f5f5" layoutX="530.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Initial HP - 100">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font></Text>
+         <Text fill="WHITE" layoutX="987.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Collect Lights">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="997.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick Health">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="1018.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP + 5">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="271.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meteorite">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="271.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move in single direction">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="271.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with different angle">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="270.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Damage player by HP - 2">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boss">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="564.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move in multidirection">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="623.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attack player by HP - 1">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="based on player's current position">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="271.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="269.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and disappear">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+         <Text fill="WHITE" layoutX="750.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="unstoppably while collision  ">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Text>
+      </Pane>
+   </children>
+</AnchorPane>
